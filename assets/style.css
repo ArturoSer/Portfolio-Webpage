@@ -38,3 +38,30 @@ h2  {
     text-align: center;
 }
 
+/*phones*/
+@media screen and (max-width: 320px) {
+    header {
+        background: #7fffd4; 
+    }
+}
+
+/*ipads*/
+@media screen and (max-width: 550px) {
+    header {
+        background: #a52a2a;
+    }
+}
+
+/*Laptops*/
+@media screen and (max-width:900px) {
+    header {
+        background: #ff7f50;
+    }
+}
+
+/*Desktops*/
+@media screen and (max-width: 1100px) {
+    header {
+        background-color: #f0ffff;
+    }
+}
